@@ -82,7 +82,7 @@ else:
             st_folium(m, width=None, height=500)
             
             # Legend sederhana
-            st.caption(f"Warna lingkaran menunjukkan pembagian {n_clusters} zona hasil clustering AI.")
+            st.caption(f"Peta persebaran {n_clusters} zona gempa bumi.")
         else:
             st.warning("Tidak ada data gempa dengan magnitudo sebesar itu.")
 
